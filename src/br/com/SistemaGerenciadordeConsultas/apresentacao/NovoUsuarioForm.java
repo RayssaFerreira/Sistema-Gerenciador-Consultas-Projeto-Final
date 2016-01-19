@@ -152,6 +152,7 @@ public class NovoUsuarioForm extends javax.swing.JFrame {
         } catch (SQLException ex) {
             Logger.getLogger(NovoUsuarioForm.class.getName()).log(Level.SEVERE, null, ex);
         }
+        dispose();
     }//GEN-LAST:event_btnSalvarActionPerformed
     public void limparCamposTela() {
         txtLogin.setText("");
