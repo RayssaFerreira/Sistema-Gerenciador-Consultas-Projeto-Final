@@ -260,7 +260,7 @@ public class UsuarioForm extends javax.swing.JFrame {
                     UsuarioBO usuarioBo = new UsuarioBO();
                     usuarioBo.removerUsuario(usuarioSelecionado.getId());
                     mensagem = "Usuário" + usuarioSelecionado.getLogin() + " Apagado com sucesso!";
-                    JOptionPane.showMessageDialog(this, mensagem, "Exclusão de Usuário", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(this, "Usuário Excluido com sucesso!", "Exclusão de Usuário", JOptionPane.INFORMATION_MESSAGE);
                     this.carregarTabela();
                 }
 

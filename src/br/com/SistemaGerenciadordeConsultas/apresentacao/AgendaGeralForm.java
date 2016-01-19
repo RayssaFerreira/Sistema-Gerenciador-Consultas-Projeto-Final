@@ -190,7 +190,7 @@ public class AgendaGeralForm extends javax.swing.JFrame {
                 if (resposta == JOptionPane.YES_NO_OPTION) {
                     ConsultaBO consultaBO = new ConsultaBO();
                     consultaBO.removerConsulta(consultaSelecionado.getId());
-                    JOptionPane.showMessageDialog(this, mensagem, "Exclusão de Consulta", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(this, "Consulta Excluida com sucesso!", "Exclusão de Consulta", JOptionPane.INFORMATION_MESSAGE);
                     this.carregarTabela();
                 }
 
